@@ -69,6 +69,7 @@ FROM
     sales_data_sample
 GROUP BY
     DEALSIZE;
+
 **12. Total Profit and Sales**
 SELECT SUM(SALES) AS TOTAL_SALES,
     SUM(QUANTITYORDERED * PRICEEACH) AS TOTAL_COST,
